@@ -1,0 +1,10 @@
+class: BreakTime
+table: break_time
+fields:
+  userId: int
+  startTime: DateTime
+  endTime: DateTime
+  isCompleted: bool
+indexes:
+  user_break_index:
+    fields: userId

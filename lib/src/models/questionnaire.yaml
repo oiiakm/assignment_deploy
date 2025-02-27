@@ -1,0 +1,17 @@
+class: Questionnaire
+table: questionnaire
+fields:
+  userId: int
+  hasSmartphone: bool?
+  usedGoogleMaps: bool?
+  canBuySmartphone: bool?
+  day: String
+  month: String
+  year: String
+  isCompleted: bool
+  tasks: Map<String, bool>?
+  createdAt: DateTime
+  updatedAt: DateTime
+indexes:
+  questionnaire_user_index:
+    fields: userId

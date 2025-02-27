@@ -1,0 +1,9 @@
+class: AppUser
+table: app_user
+fields:
+  userInfoId: int
+  isReferral: bool?
+indexes:
+  app_user_userInfo_idx:
+    fields: userInfoId
+    unique: true

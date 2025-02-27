@@ -1,0 +1,9 @@
+auth:
+  - loginOrSignup:
+breakTime:
+  - getBreakTime:
+  - markBreakAsCompleted:
+questionnaire:
+  - saveQuestionnaire:
+  - getQuestionnaire:
+  - autoSaveQuestionnaire:
