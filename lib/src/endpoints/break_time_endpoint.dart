@@ -17,7 +17,7 @@ class BreakTimeEndpoint extends Endpoint {
       final dummyBreakTime = BreakTime(
         userId: userId,
         startTime: now,
-        endTime: now.add(Duration(hours: 1)),
+        endTime: now.add(Duration(minutes: 10)),
         isCompleted: false,
       );
       final insertedDummy = await BreakTime.db.insertRow(session, dummyBreakTime);
